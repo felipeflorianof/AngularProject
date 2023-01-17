@@ -1,0 +1,18 @@
+.modal-dialog {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  place-items: right;
+  grid-gap: 20px;
+  }
+
+  .btn{
+    font-size: 11pt;
+    background-color: rgba(32, 32, 172, 0.747);
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    margin-right: 20px;
+}
