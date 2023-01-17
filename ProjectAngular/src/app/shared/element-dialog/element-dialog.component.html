@@ -1,0 +1,34 @@
+<div mat-dialog-content class="container">
+  <app-header></app-header>
+    <h1 mat-dialog-title>Curso - Incluir</h1>
+    <div class="modal-dialog">
+      <mat-form-field appearance="fill">
+        <mat-label>Código</mat-label>
+        <input matInput [(ngModel)]="data.codigo">
+      </mat-form-field>
+      <mat-form-field appearance="fill">
+        <mat-label>nome</mat-label>
+        <input matInput [(ngModel)]="data.nome">
+      </mat-form-field>
+      <mat-form-field appearance="fill">
+        <mat-label>Instrutor</mat-label>
+        <input matInput [(ngModel)]="data.instrutor">
+      </mat-form-field>
+      <mat-form-field appearance="fill">
+        <mat-label>Local</mat-label>
+        <input matInput [(ngModel)]="data.local">
+      </mat-form-field>
+      <mat-form-field appearance="fill">
+        <mat-label>Carga Horária</mat-label>
+        <input matInput [(ngModel)]="data.carga">
+      </mat-form-field>
+      <mat-form-field appearance="fill">
+        <mat-label>Data de Início</mat-label>
+        <input matInput [(ngModel)]="data.datainicio">
+      </mat-form-field>
+    </div>
+  <div mat-dialog-actions>
+    <button mat-button (click)="onNoClick()">Voltar</button>
+    <button mat-button [mat-dialog-close]="data" cdkFocusInitial>Incluir</button>
+  </div>
+</div>

@@ -1,0 +1,25 @@
+table {
+    width: 100%;
+}
+
+.container{
+    padding: 80px 120px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 150px;
+}
+
+.btn{
+    background-color: rgba(32, 32, 172, 0.747);
+    padding: 14px;
+    border-radius: 3px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    margin-bottom: 5px;
+}
+
+.btn:hover{
+    background-color: rgb(32, 32, 172);
+    transition: 0.5s;
+}
